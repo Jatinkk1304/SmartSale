@@ -1,0 +1,15 @@
+નવી chatમાં તું SmartSale_Master_Prompt.pdf upload કરીશ, પછી simply લખીશ:
+
+“Read this Master Prompt and guide me to build my SmartSale project step-by-step. I am starting from Step 1.”
+
+પછી AI PDFની instructions પ્રમાણે તને એક સમયે એક step guide કરશે. Dataset inspect કરાવશે, પછી EDA, cleaning, feature engineering, ML, SQL, Streamlit વગેરે આગળ લઈ જશે.
+
+અને જો કોઈ step પર તું અટકી જાય તો એ જ chatમાં error/code મોકલજે. AI એ current codeને ધ્યાનમાં રાખીને fix કરવું જોઈએ અને project structure consistent રાખવું જોઈએ. PDFમાં આ માટે ખાસ code-consistency અને new-chat rules છે.
+
+🔄 જો chat change કરવી પડે
+
+નવી chat → PDF upload → projectની current files/code અથવા PROJECT STATUS આપ → પછી:
+
+“Continue SmartSale from this project status. Follow the Master Prompt and do not recreate existing code from memory.”
+
+આ રીતે અલગ-अलग chats હોવા છતાં projectનું structure અને code consistency જાળવી શકાશે.

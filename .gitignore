@@ -1,0 +1,46 @@
+# =========================
+# SmartSale - Git Ignore
+# =========================
+
+# Dataset
+data/raw/
+data/processed/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Secrets / Environment
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# Python files
+*.pyc
+*.pyo
+
+# Model files
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.keras
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+SmartSale chatgpt for qustions.pdf
+SmartSale_Master_Prompt.pdf
